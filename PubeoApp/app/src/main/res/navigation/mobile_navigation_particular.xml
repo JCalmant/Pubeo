@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation_particular"
+    app:startDestination="@+id/nav_particular_home">
+
+    <fragment
+        android:id="@+id/nav_particular_home"
+        android:name="com.example.pubeo.Particular.ui.home.ParticularHomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_particular_home" />
+
+    <fragment
+        android:id="@+id/nav_particular_stickers"
+        android:name="com.example.pubeo.Particular.ui.stickers.ParticularStickersFragment"
+        android:label="@string/menu_stickers"
+        tools:layout="@layout/fragment_particular_stickers" />
+
+    <fragment
+        android:id="@+id/nav_particular_settings"
+        android:name="com.example.pubeo.Particular.ui.settings.ParticularSettingsFragment"
+        android:label="@string/menu_settings"
+        tools:layout="@layout/fragment_particular_settings" />
+
+</navigation>
